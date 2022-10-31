@@ -4,7 +4,7 @@ const valorTotalDosLivrosDisponíveis = document.getElementById('valor_total_liv
 function exebirOsLivrosNaTela(listaDeLivros) {
 
   valorTotalDosLivrosDisponíveis.innerHTML = ''
-  elementoParaInserirLivros.innerHTML = '' // incluso para realizar filter
+  elementoParaInserirLivros.innerHTML = '' 
 
   listaDeLivros.forEach(livro => {
     let disponibilidade = livro.quantidade > 0 ? 'livro__imagens' : 'livro__imagens indisponivel'

@@ -26,6 +26,9 @@ Manipulamos o DOM para exibir a sessão de valor total dos livros disponíveis a
 
 Utilizamos o método reduce para descobrir o valor total de todos livros disponíveis.
 
+Neste treinamento, todas as barreiras foram vencidas e você aprendeu de forma prática como utilizar os principais métodos de array com JavaScript.
+
+Você aprendeu como aplicar um for moderno e elegante através do método forEach, o map para aplicar um desconto em todos os livros e ter como retorno um novo array com os valores atualizados. Além disso, aprendeu como filtrar e ordenar elementos de uma lista comos métodos filter e sort e para fechar com chave de ouro, aprendeu como reduzir toda array em apenas um elemento com reduce
 
 MÉTODOSSSS
 
