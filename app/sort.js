@@ -1,4 +1,4 @@
-//utilizado para ordenar 
+//utilizado para ordenar (SORT)
 
 let ordemDePreco = document.getElementById('btnOrdenarPorPreco')
 ordemDePreco.addEventListener('click', ordenarLivrosPorPreco)

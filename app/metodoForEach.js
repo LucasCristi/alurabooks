@@ -1,9 +1,9 @@
-const elementoParaInserirLivros = document.getElementById('livros')
+const elementoParaInserirLivros = document.getElementById('livros') 
 const valorTotalDosLivrosDisponíveis = document.getElementById('valor_total_livros_disponiveis')
 
 function exebirOsLivrosNaTela(listaDeLivros) {
 
-  valorTotalDosLivrosDisponíveis.innerHTML = ''
+  valorTotalDosLivrosDisponíveis.innerHTML = '' //limpa a tela e só mostra o que foi clicado nos FILTROS
   elementoParaInserirLivros.innerHTML = '' 
 
   listaDeLivros.forEach(livro => {

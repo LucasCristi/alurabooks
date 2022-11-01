@@ -1,8 +1,8 @@
-const botoes = document.querySelectorAll('.btn')
+const botoes = document.querySelectorAll('.btn') //pega todos os botões class btn
 botoes.forEach(btn => btn.addEventListener('click', filtrarLivros))
 
 function filtrarLivros() {
-    const elementoBtn = document.getElementById(this.id)
+    const elementoBtn = document.getElementById(this.id) //pega o id do elemento clicado
     const categoria = elementoBtn.value
     let livrosFiltrados = categoria == 'disponivel' ? filtrarPorDisponibilidade() : filtrarPorCategoria(categoria)
     exebirOsLivrosNaTela(livrosFiltrados) //funcao usada no forech.js passando parametro dos filtros
